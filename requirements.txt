@@ -1,0 +1,8 @@
+os
+pikey 
+streamlit as st
+pandas as pd
+langchain.llms.openai import OpenAI
+langchain_experimental.agents import create_pandas_dataframe_agent
+dotenv import load_dotenv, find_dotenv
+
